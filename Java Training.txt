@@ -1,0 +1,113 @@
+DAY 1 (20 May)-------------------------------------------------------------------------------------------------------------------------
+
+1) Java is platform indepent and JDK, JRE and JVM are all platform dependent because of different extensions.
+
+2) Why Java is Platform indepent?
+   When u compile or run the java program, the compiler converts the .java file to .class file which contains byte code.
+
+3) Garbage collector is basically a program which runs on JVM to get rid of the objects which are not used in the program.
+
+4) If a method has same name but different parameters then it is called method overloading.
+
+5) Package are two types 1) user defined and 2) in-built packages
+
+6) WAP to insert four elements in the array and then try to insert one more element.
+
+7) pass array to a method and find the minimum element from the array.
+
+8) total marks of the participants in the four subjects.
+
+
+
+DAY 2 (21 May) ------------------------------------------------------------------------------------------------------------------------
+
+STRINGS :
+
+1) String is basically an object which contains sequence of characters. 
+
+2) We can create string by two methods using string and new keyword.
+
+3) StringBuilder capacity method returns the current capacity of the string. the default capacity is always 16.
+
+4) create a diff between stringbuilder and stringbuffer in a program.
+
+CLASS RELATIONSHIP ASSOCIATION :
+
+Three types: 1) Aggregation
+	     2) Composition
+	     3) Generalization
+
+	1) AGGREGATION: It is a tight relationship or loose relationship(weakly coupled). Ex: Independent Objects 
+	2) COMPOSITION: Both objects are dependent on each other. Ex: Car and Engine
+
+6) Inheritance: is a process where one class inherits the properties and behaviour of another class and that class will be called as the parent class.
+	1) Single Level Inheritance
+	2) Multilevel Inheritance
+	3) Hierarchical Inheritance
+
+7) Final keyword is used for defining anything that can't be changed further. If done the user will get restrictions.
+
+8) Interface: can be defined using Interface keyword. the purpose is to achieve 100% abstraction in java. we can also achieve multiple inheritance. all the fields are public static and final by default. and method public and abstract.
+
+
+
+DAY 3 (22 May)  -------------------------------------------------------------------------------------------------------------------------
+
+EXCEPTION HANDLING: 
+1) Abnormal condition that can come anytime anywhere. in technical terms when entire flow of program gets interrupted.
+
+2) The classes that extend throwable class except runtime are called checked exception and unchecked exception as vice versa.
+
+3) Throw: we use throw keyword to explicitily throw an exception, we can throw either check or unchecked exception.
+
+4) Throws: to declare an exception to throw an exception.
+
+5) Custom Exception is an exception that are derived classes or child classes of the exception class and we can make it our own.
+	Criteria: 1) 
+		  2) 
+
+6) Can we override the static methid in java?
+
+7) Differentiate between throw and throws?
+
+COLLECTIONS:
+
+1) Is a framework where we manipulate, store, delete and update the group of objects.
+
+2) ArrayList: It uses a dynamic array for storing the elements and it extends abstract list class and implements the list interface.
+		1) Arraylist can have duplicate data.
+		2) maintance the insertion order.
+		3) 
+		4) allows random access.
+		5) The only problem is the manipulation is very slow like removal of element.
+		6)
+
+3) Iterator from Iterator interface provides the facillity to iterate in the forward direction.
+
+SET: is an interface which extends the collection and it is an unordered arrangements of objects with no order.
+
+methods add remove clear size. 
+
+TreeSet is an sorted set interface. it is basically a non linear data structure.
+
+pollLast is used to retrieve the highest or last element.(Dictionary order)
+pollFirst vice versa.
+
+NavigableSet: It provides navigation methods and descending iterator that will allow its elements in the set to traverse in descending order.
+
+SortedSet: to sort the elements according to their natural ordering and duplicate elements are not allowed.
+
+Map: contains the value on the basis of key pair. it contains unique keys.
+
+
+DAY 4 (23 May)  -------------------------------------------------------------------------------------------------------------------------
+
+LinkedHashMap is hash table and linkedlist implementation of map .... it inherits the hashmap class and implements the map intereface. it contains unique keys and multiple values
+
+TreeMap is the redblacktree based implementation and we can store key value pairs in the sorted order it contains the value based on the key. It cannot have null key but can have multiple null values.
+
+The performance and behavior of the ascending operations are likely to be faster and efficient than that of the descending order.
+
+SubMap: It will return key value pairs that exist in between the specified key.
+
+Comparator interface we use to order the obj of any user define class, and we can find the interface in the java.util package. 
